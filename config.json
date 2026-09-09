@@ -1,0 +1,11 @@
+{
+    "offline_threshold_minutes": 2,
+    "capacity_alert_percent": 80,
+    "capacity_warning_percent": 50,
+    "bin_height_cm": 40,
+    "default_device_id": "Tong-01",
+    "default_location": "Kantin Sekolah",
+    "admin_password": "admin123",
+    "auto_alarm_sound": true,
+    "api_key": "YOUR_SECRET_API_KEY"
+}

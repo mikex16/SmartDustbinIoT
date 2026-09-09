@@ -1,0 +1,10 @@
+﻿# ==============================================================================
+# Contoh Konfigurasi Deploy FTP Persendirian (deploy.local.ps1.example)
+# Salin fail ini kepada 'deploy.local.ps1' dan masukkan maklumat FTP hosting anda.
+# Fail 'deploy.local.ps1' disenaraikan dalam .gitignore dan tidak akan di-commit.
+# ==============================================================================
+
+$user = 'your_cpanel_or_ftp_username'
+$pass = 'your_cpanel_or_ftp_password'
+$remoteBase = 'ftp://your-domain.com/public_html/tong'
+$webBaseUrl = 'https://your-domain.com/tong'

@@ -1,0 +1,22 @@
+﻿<?php
+/**
+ * ============================================================================
+ * Contoh Fail Konfigurasi Pangkalan Data Peribadi (config.local.php.example)
+ * Salin fail ini kepada 'config.local.php' dan ubah suai mengikut pelayan anda.
+ * Fail 'config.local.php' disenaraikan dalam .gitignore dan tidak akan di-commit.
+ * ============================================================================
+ */
+
+if ($isLocalhost) {
+    $db_host = '127.0.0.1';
+    $db_port = 3306;
+    $db_user = 'root';
+    $db_pass = '';
+    $db_name = 'smart_dustbin';
+} else {
+    $db_host = 'localhost';
+    $db_port = 3306;
+    $db_user = 'your_server_db_user';
+    $db_pass = 'your_server_db_password';
+    $db_name = 'your_server_db_name';
+}

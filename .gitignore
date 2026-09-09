@@ -1,0 +1,22 @@
+# Kredensial & Konfigurasi Rahsia / Peribadi (JANGAN Upload ke GitHub)
+config.local.php
+deploy.local.ps1
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary files & Editor files
+*.tmp
+*.bak
+*.swp
+*~
+.vscode/
+.idea/
+
+# Local cache / test files
+test_*.php
+raw_icon.jpg
