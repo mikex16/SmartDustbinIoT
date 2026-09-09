@@ -2,7 +2,7 @@
 
 > **Sistem Pemantauan Tong Sampah Pintar IoT & Inovasi Budaya Kitar Semula**  
 > Dihasilkan dan dibangunkan oleh murid-murid **SK Kelatuan Papar, Sabah** bersama sokongan komuniti **PPRZ.net**.  
-> 🌐 **Demo Live:** [https://your-domain.com/tong/](https://your-domain.com/tong/)
+> 🌐 **Demo Live:** [https://api.pprz.net/tong/](https://api.pprz.net/tong/)
 
 ---
 
