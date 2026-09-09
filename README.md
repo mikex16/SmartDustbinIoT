@@ -70,6 +70,25 @@ Sambungan antara mikropengawal **ESP32** dan sensor ultrasonik **HC-SR04**:
 
 ---
 
+## 💰 Anggaran Kos Pembuatan (Bill of Materials)
+
+Projek ini membuktikan teknologi canggih boleh dibina dengan kos mampu milik mesra sekolah:
+
+| Komponen / Bahan | Kuantiti | Fungsi / Catatan | Anggaran Kos (MYR) |
+| :--- | :---: | :--- | :---: |
+| **Rangka Tong Sampah** | 1 unit | Kotak kadbod / plastik terpakai (*Upcycling*) | **RM 0.00** *(Percuma)* |
+| **ESP32 NodeMCU** | 1 unit | Mikropengawal Wi-Fi & Bluetooth IoT | **RM 18.00 – RM 22.00** |
+| **Sensor Ultrasonik HC-SR04** | 1 unit | Transduser sonar pengukur paras sampah | **RM 4.50 – RM 6.00** |
+| **Wayar Jumper & Mini Breadboard** | 1 set | Penyambungan litar GPIO | **RM 3.00 – RM 4.50** |
+| **Kabel USB & Punca Kuasa 5V** | 1 set | Pengecas telefon / power bank terpakai | **RM 0.00 – RM 5.00** |
+| **Bahan Pelekat (Hot Glue / Tape)** | 1 set | Pengikat sensor dan kemasan tong | **RM 3.00 – RM 5.00** |
+| **Perisian PWA & REST API** | Penuh | 100% Sumber Terbuka (*AI Vibe Coding*) | **RM 0.00** *(Percuma)* |
+| **JUMLAH KASAR ANGGARAN** | — | **Purata Kos Seunit** | **~RM 35.00 – RM 45.00** |
+
+> 💡 **Penjimatan Hebat:** Berbanding tong sampah pintar komersial di pasaran yang berharga **RM 150 – RM 350+**, SmartDustbin SK Kelatuan menjimatkan lebih **75% – 85%** perbelanjaan!
+
+---
+
 ## 🚀 Panduan Pemasangan Tempatan (Local Setup)
 
 1. Pastikan persekitaran web server seperti **XAMPP / Laragon** telah dipasang dengan PHP 8.0+ dan MySQL.

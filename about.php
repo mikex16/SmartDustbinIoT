@@ -224,6 +224,182 @@
 
 
         <!-- ================================================================ -->
+        <!-- ANGGARAN KOS PEMBUATAN (BILL OF MATERIALS & COST ESTIMATION)     -->
+        <!-- ================================================================ -->
+        <section class="p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-slate-900 via-slate-900/90 to-slate-950 border border-emerald-500/30 glow-emerald space-y-4 shadow-xl">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
+                <div>
+                    <span class="text-emerald-400 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5">
+                        <i class="fas fa-coins"></i> Analisis Kos Inovasi STEM
+                    </span>
+                    <h3 class="text-base sm:text-lg font-black text-white mt-0.5 flex items-center gap-2">
+                        Anggaran Kos Pembuatan (Bill of Materials)
+                    </h3>
+                </div>
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 text-xs font-bold w-fit">
+                    <i class="fas fa-tags text-[11px]"></i> Jumlah: ~RM 35 – RM 45 Sahaja!
+                </div>
+            </div>
+
+            <p class="text-xs text-slate-300 leading-relaxed">
+                Salah satu keistimewaan projek <strong>SmartDustbin SK Kelatuan</strong> ialah kos pembuatannya yang amat rendah dan mampu milik. Dengan memanfaatkan bahan terbuang untuk struktur fizikal serta komponen mikropengawal bajet mesra pelajar, projek ini membuktikan inovasi canggih tidak memerlukan bajet yang besar!
+            </p>
+
+            <!-- Jadual Perincian Kos (BOM Table) -->
+            <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-950/60">
+                <table class="w-full text-left text-xs text-slate-300">
+                    <thead class="bg-slate-900/90 text-slate-400 text-[11px] uppercase tracking-wider border-b border-slate-800 font-semibold">
+                        <tr>
+                            <th class="py-2.5 px-3">Komponen / Bahan</th>
+                            <th class="py-2.5 px-2 text-center">Kuantiti</th>
+                            <th class="py-2.5 px-3">Fungsi &amp; Catatan</th>
+                            <th class="py-2.5 px-3 text-right">Anggaran Kos</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800/60 font-mono text-[11px]">
+                        <tr class="hover:bg-slate-800/30 transition">
+                            <td class="py-2.5 px-3 font-sans font-semibold text-white flex items-center gap-2">
+                                <span class="w-6 h-6 rounded-lg bg-amber-500/15 text-amber-400 flex items-center justify-center text-xs shrink-0"><i class="fas fa-box-open"></i></span>
+                                <div>
+                                    <span>Rangka Tong Sampah</span>
+                                    <span class="block text-[10px] text-slate-400 font-normal">Kotak kadbod / plastik terbuang</span>
+                                </div>
+                            </td>
+                            <td class="py-2.5 px-2 text-center text-slate-400">1 unit</td>
+                            <td class="py-2.5 px-3 font-sans text-slate-400 text-[11px]">Bahan terpakai dikumpul di persekitaran sekolah (Upcycling)</td>
+                            <td class="py-2.5 px-3 text-right font-bold text-emerald-400">RM 0.00 <span class="text-[9px] text-emerald-500 font-sans block">(Percuma)</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition">
+                            <td class="py-2.5 px-3 font-sans font-semibold text-white flex items-center gap-2">
+                                <span class="w-6 h-6 rounded-lg bg-cyan-500/15 text-cyan-400 flex items-center justify-center text-xs shrink-0"><i class="fas fa-microchip"></i></span>
+                                <div>
+                                    <span>ESP32 NodeMCU</span>
+                                    <span class="block text-[10px] text-slate-400 font-normal">Modul Wi-Fi &amp; Bluetooth IoT</span>
+                                </div>
+                            </td>
+                            <td class="py-2.5 px-2 text-center text-slate-400">1 unit</td>
+                            <td class="py-2.5 px-3 font-sans text-slate-400 text-[11px]">Otak pemprosesan data sensor dan penghantaran Wi-Fi HTTP POST</td>
+                            <td class="py-2.5 px-3 text-right font-bold text-slate-200">RM 18.00 – 22.00</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition">
+                            <td class="py-2.5 px-3 font-sans font-semibold text-white flex items-center gap-2">
+                                <span class="w-6 h-6 rounded-lg bg-blue-500/15 text-blue-400 flex items-center justify-center text-xs shrink-0"><i class="fas fa-satellite-dish"></i></span>
+                                <div>
+                                    <span>Sensor Ultrasonik HC-SR04</span>
+                                    <span class="block text-[10px] text-slate-400 font-normal">Transduser gelombang sonar</span>
+                                </div>
+                            </td>
+                            <td class="py-2.5 px-2 text-center text-slate-400">1 unit</td>
+                            <td class="py-2.5 px-3 font-sans text-slate-400 text-[11px]">Mengukur paras ketinggian dan peratusan kepenuhan sampah</td>
+                            <td class="py-2.5 px-3 text-right font-bold text-slate-200">RM 4.50 – 6.00</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition">
+                            <td class="py-2.5 px-3 font-sans font-semibold text-white flex items-center gap-2">
+                                <span class="w-6 h-6 rounded-lg bg-teal-500/15 text-teal-400 flex items-center justify-center text-xs shrink-0"><i class="fas fa-code-branch"></i></span>
+                                <div>
+                                    <span>Wayar Jumper &amp; Mini Board</span>
+                                    <span class="block text-[10px] text-slate-400 font-normal">Dupont cable &amp; mini breadboard</span>
+                                </div>
+                            </td>
+                            <td class="py-2.5 px-2 text-center text-slate-400">1 set</td>
+                            <td class="py-2.5 px-3 font-sans text-slate-400 text-[11px]">Penyambungan pin GPIO antara ESP32 dan sensor HC-SR04</td>
+                            <td class="py-2.5 px-3 text-right font-bold text-slate-200">RM 3.00 – 4.50</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition">
+                            <td class="py-2.5 px-3 font-sans font-semibold text-white flex items-center gap-2">
+                                <span class="w-6 h-6 rounded-lg bg-yellow-500/15 text-yellow-400 flex items-center justify-center text-xs shrink-0"><i class="fas fa-plug"></i></span>
+                                <div>
+                                    <span>Kabel USB &amp; Bekalan Kuasa</span>
+                                    <span class="block text-[10px] text-slate-400 font-normal">Kabel Micro-USB / Adapter 5V</span>
+                                </div>
+                            </td>
+                            <td class="py-2.5 px-2 text-center text-slate-400">1 set</td>
+                            <td class="py-2.5 px-3 font-sans text-slate-400 text-[11px]">Menggunakan pengecas telefon pintar terpakai atau power bank</td>
+                            <td class="py-2.5 px-3 text-right font-bold text-slate-200">RM 0.00 – 5.00</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/30 transition">
+                            <td class="py-2.5 px-3 font-sans font-semibold text-white flex items-center gap-2">
+                                <span class="w-6 h-6 rounded-lg bg-orange-500/15 text-orange-400 flex items-center justify-center text-xs shrink-0"><i class="fas fa-tape"></i></span>
+                                <div>
+                                    <span>Bahan Pelekat &amp; Hiasan</span>
+                                    <span class="block text-[10px] text-slate-400 font-normal">Gam panas / hot glue &amp; pelekat</span>
+                                </div>
+                            </td>
+                            <td class="py-2.5 px-2 text-center text-slate-400">1 set</td>
+                            <td class="py-2.5 px-3 font-sans text-slate-400 text-[11px]">Memasang sensor pada penutup tong dan mengukuhkan sambungan</td>
+                            <td class="py-2.5 px-3 text-right font-bold text-slate-200">RM 3.00 – 5.00</td>
+                        </tr>
+                        <tr class="bg-emerald-950/20">
+                            <td class="py-2.5 px-3 font-sans font-semibold text-white flex items-center gap-2">
+                                <span class="w-6 h-6 rounded-lg bg-fuchsia-500/15 text-fuchsia-400 flex items-center justify-center text-xs shrink-0"><i class="fas fa-laptop-code"></i></span>
+                                <div>
+                                    <span>Perisian, PWA &amp; Kod AI</span>
+                                    <span class="block text-[10px] text-slate-400 font-normal">Frontend, API &amp; Firmware</span>
+                                </div>
+                            </td>
+                            <td class="py-2.5 px-2 text-center text-slate-400">Penuh</td>
+                            <td class="py-2.5 px-3 font-sans text-slate-400 text-[11px]">100% Sumber Terbuka (Open Source GitHub) &amp; AI Vibe Coding</td>
+                            <td class="py-2.5 px-3 text-right font-bold text-emerald-400">RM 0.00 <span class="text-[9px] text-emerald-500 font-sans block">(Percuma)</span></td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="bg-slate-900 border-t-2 border-slate-700 text-xs">
+                        <tr>
+                            <td colspan="3" class="py-3 px-3 font-bold text-white uppercase tracking-wider">
+                                <i class="fas fa-calculator text-emerald-400 mr-1.5"></i> Anggaran Purata Kos Seunit:
+                            </td>
+                            <td class="py-3 px-3 text-right font-mono font-black text-sm text-emerald-400">
+                                ~RM 39.00
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <!-- Kad Perbandingan Penjimatan (Cost Comparison) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                <div class="p-4 rounded-2xl bg-gradient-to-br from-emerald-950/50 to-slate-950 border border-emerald-500/40 space-y-2 shadow-md">
+                    <div class="flex items-center justify-between">
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-400 flex items-center gap-1">
+                            <i class="fas fa-check-circle"></i> Inovasi SK Kelatuan
+                        </span>
+                        <span class="text-xs px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-bold font-mono">Bahan Terpakai + IoT</span>
+                    </div>
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-2xl font-black text-white font-mono">RM 35 – 45</span>
+                        <span class="text-xs text-slate-400">/ unit</span>
+                    </div>
+                    <p class="text-[11px] text-slate-300 leading-relaxed">
+                        Sangat jimat, mesra alam, mendidik murid tentang kitar semula, dan boleh dibina sendiri oleh murid sekolah rendah!
+                    </p>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-slate-950/70 border border-slate-800 space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 flex items-center gap-1">
+                            <i class="fas fa-store"></i> Tong Pintar Komersial Pasaran
+                        </span>
+                        <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400 font-bold font-mono">Produk Kilang</span>
+                    </div>
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-2xl font-bold text-rose-400/90 font-mono">RM 150 – 350+</span>
+                        <span class="text-xs text-slate-400">/ unit</span>
+                    </div>
+                    <p class="text-[11px] text-slate-400 leading-relaxed">
+                        Kos tinggi untuk kegunaan sekolah, sistem tertutup (*proprietary*), dan tidak memberi pengalaman amali bina sendiri kepada pelajar.
+                    </p>
+                </div>
+            </div>
+
+            <div class="p-3 rounded-xl bg-slate-950/80 border border-slate-800/80 text-[11px] text-slate-300 flex items-start gap-2.5">
+                <i class="fas fa-lightbulb text-amber-400 text-xs mt-0.5 shrink-0"></i>
+                <div>
+                    <strong>Tip Jimat Kos:</strong> Sebahagian besar perkakasan seperti kabel micro-USB dan adapter kuasa boleh diperoleh daripada barangan elektrik lama di rumah/sekolah. Ini menjadikan kos perkakasan elektronik sebenar hanya sekitar <strong>RM 25.00 hingga RM 30.00</strong> sahaja!
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================================================================ -->
         <!-- CADANGAN PENAMBAHBAIKAN MASA HADAPAN (FUTURE ROADMAP)            -->
         <!-- ================================================================ -->
         <section class="p-5 rounded-2xl bg-gradient-to-b from-slate-900 to-slate-900/90 border border-slate-800 space-y-4 shadow-xl">
